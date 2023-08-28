@@ -5,12 +5,13 @@ body{
 }
 .week-container{
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     padding: 10px;
 }
 
 .week-day{
+    margin: auto;
     padding: 10px;
     background-color: #982176;
     transition: 1s;
@@ -18,13 +19,17 @@ body{
     text-align: center;
 }
 .class{
-    margin: 10px;
+    margin-top: 10px;
     padding: 10px;
     width: 200px;
     border: 2px solid #3E001F;
     border-radius: 10px;
     text-align: center;
     background-color: #3E001F;
-    color: white;
+    color: white;   
+}
+
+.top-bar {
+    text-align: center;
 }
 
